@@ -95,7 +95,8 @@ Led-20 : Led
 
 # Block Diagram
 
-![Screenshot (13)](https://user-images.githubusercontent.com/94359739/144398422-31fc4577-b30b-4e73-a559-131f9ae7c890.png
+![Screenshot (13)](https://user-images.githubusercontent.com/94359739/144399729-ba9e84fa-8aba-4f16-a493-9c31afcec738.png)
+
 
 
 # Source code 
