@@ -93,6 +93,31 @@ Led-18 : Led
 Led-20 : Led   
  
 
+# Block Diagram
+
+![Screenshot (13)](https://user-images.githubusercontent.com/94359739/144398422-31fc4577-b30b-4e73-a559-131f9ae7c890.png
+
+
+# Source code 
+
+#define F_CPU 16000000
+#include <avr/io.h>
+#include <util/delay.h>
+int main(void)
+{
+	DDRB=0xFF;
+	unsigned char z;
+	while(1)
+	{
+		
+		for(z=0;z<255;z++)
+		{
+			PORTB=z;
+			_delay_ms(1000);
+		}
+	}
+	return 0;
+	}
 
       
         
