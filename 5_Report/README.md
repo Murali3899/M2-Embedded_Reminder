@@ -101,8 +101,11 @@ Led-20 : Led
 # Source code 
 
 #define F_CPU 16000000
+
 #include <avr/io.h>
+
 #include <util/delay.h>
+
 int main(void)
 {
 	DDRB=0xFF;
@@ -119,7 +122,12 @@ int main(void)
 	return 0;
 	}
 
-      
+
+# Circuit
+
+![Screenshot (14)](https://user-images.githubusercontent.com/94359739/144399162-8a04a7c2-02d7-4a63-861c-007470e696bc.png)
+
+
         
 
      
